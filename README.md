@@ -1,7 +1,7 @@
 # BMEAS-wa
 BMEAS Web App Resources.
 
-To run this website on localhost // MacOS X:
+To run this website on localhost // MacOS X or Linux:
 
 1. Install __Python 3.7.6__ (or a newer version) and set up __pip__: In terminal, type 
 
