@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Bright Mind Enrichment and Schooling" />
+        <base href="https://7903c696-379e-45f4-9b00-d79f2918895c-ide.cs50.xyz:8080/">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="/files/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="/m_style.css" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="/">
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/files/streetcare.png" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse nav_init" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li style="text-align:left;" class="nav-item"><a class="nav-link js-scroll-trigger" href="/toolkit"><img class="nav_icon" src="/files/help.png"><span>How to Help</span></a></li>
+                    <li style="text-align:left;" class="nav-item"><a class="nav-link js-scroll-trigger" href="/community"><img class="nav_icon" src="/files/community.png"><span>Community</span></a></li>
+                    <!--<li style="text-align:left;" class="nav-item"><a class="nav-link js-scroll-trigger" href="#profile"><img style="vertical-align:middle;width:20%;padding-right:10px;" src="./files/profile.png"><span style="">Profile</span></a></li>-->
+                </ul>
+            </div>
+            <div style="padding-bottom:40px;">
+                <a class="nav-link js-scroll-trigger ext_l-hov download_link" href="/external_link">Download App</a>
+            </div>
+            <!--
+            <div>
+                <a class="nav-link js-scroll-trigger" href="#login" style="color:black;background-color:#feed00; font-weight: 980; letter-spacing: 0.05rem; text-transform: uppercase;">Log in</a>
+                <a class="nav-link js-scroll-trigger" href="#signup" style="color:black;background-color:#feed00; font-weight: 980; letter-spacing: 0.05rem; text-transform: uppercase;">Sign up</a>
+            </div> -->
+        </nav>
+        {% block main %}{% endblock %}
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    </body>
+</html>

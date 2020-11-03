@@ -1,0 +1,31 @@
+{% extends "aa_layout.html" %}
+{% block title %}
+    StreetCare Web App
+{% endblock %}
+{% block main %}
+<!-- Page Content-->
+        <div class="container-fluid p-0">
+            <span class="dot"></span>
+            <div class="section_offset">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" style="margin-top:-100px;">Street<span class="text-primary">Care</span> Toolkit</h2>
+                </div>
+            </div>
+            <div class="section_offset">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">How to Help</h3><br><br>
+                        <div class="hov_div">
+                            <a class="toolkit_style" href="/toolkit/start_now/before_you_go"><img src="./files/sn.png" class="toolkit_icon"><span class="toolkit_span">Start Now</span><span class="toolkit_spanr">&#8250;</span></a>
+                        </div><br>
+                        <div class="hov_div">
+                            <a class="toolkit_style" href="/toolkit/what_to_bring"><img src="./files/wtb.png" class="toolkit_icon"><span class="toolkit_span">What to Bring</span><span class="toolkit_spanr">&#8250;</span></a>
+                        </div><br>
+                        <div class="hov_div">
+                            <a class="toolkit_style" href="/toolkit/how-to_videos"><img src="./files/htv.png" class="toolkit_icon"><span class="toolkit_span">How-to Videos</span><span class="toolkit_spanr">&#8250;</span></a>
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+
+{% endblock %}

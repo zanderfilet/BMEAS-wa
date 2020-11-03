@@ -1,0 +1,31 @@
+{% extends "aa_layout.html" %}
+{% block title %}
+    StreetCare Web App
+{% endblock %}
+{% block main %}
+<!-- Page Content-->
+        <div class="container-fluid p-0">
+            <span class="dot"></span>
+            <div class="section_offset">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" style="margin-top:-100px;">Street<span class="text-primary">Care</span> Toolkit</h2>
+                </div>
+            </div>
+            <div class="section_offset">
+                <h3 class="mb-0">Start Now</h3>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="Row" style="padding-top:40px;">
+                        <div class="Column toolkit_link_d"><a class="toolkit_style toolkit_link" href="/toolkit/start_now/before_you_go" style="text-decoration:none;">Before you Go</a></div>
+                        <div class="Column toolkit_link_d"><a class="toolkit_style toolkit_link" href="/toolkit/start_now/on_the_street" style="text-decoration:none;">On the Street</a></div>
+                        <div class="Column" style="border-bottom:2px solid #feed00;font-weight: bold;color:#000;"><a class="toolkit_style toolkit_link tk_se" href="/toolkit/start_now/after_your_visit" style="text-decoration:none;">After your Visit</a></div>
+                    </div>
+                </div>
+                <h3 class="mb-0" style="text-align:center;">Would you like to Log Your Visit?</h3>
+                <img src="/files/lyv.png" style="width:20%;height:20%;display:block;margin:auto;"><br>
+                <a class="nav-link js-scroll-trigger ext_l f_r ext_l-hov ext_l_len" href="/toolkit/start_now/log_your_visit">Log your Visit</a><br>
+                <a class="nav-link js-scroll-trigger ext_l f_r ext_l-hov ext_l_len" href="/external_link">Donate</a>
+            </div><br><br>
+        </div>
+
+
+{% endblock %}

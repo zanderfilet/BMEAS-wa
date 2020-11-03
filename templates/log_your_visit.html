@@ -1,0 +1,130 @@
+{% extends "aa_layout.html" %}
+{% block title %}
+    StreetCare Web App
+{% endblock %}
+{% block main %}
+<!-- Page Content-->
+        <div class="container-fluid p-0">
+            <span class="dot"></span>
+            <div class="section_offset">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" style="margin-top:-100px;">Street<span class="text-primary">Care</span> Toolkit</h2>
+                </div>
+            </div>
+            <div class="section_offset">
+                <h3 class="mb-0">Log your Visit</h3>
+                <a href="/toolkit/start_now/after_your_visit" style="text-decoration:none;">&#10094; Back</a><br><br>
+                <p class="j">Please fill out this form after each time you go out. This helps us build Street Care, to bring more services to you and the community!</p>
+
+            <form action="/" class="f_inp_s">
+                <br>
+                <p style="width:20%;color:black;">Date you went</p>
+                <input type="date" id="start" name="trip-start" value="" min="2020-01-01" max="2021-01-01" style="width:49%;float:left;margin-top:-15px;"><br><br>
+
+
+                <p style="color:black;width:49%;float:left;margin-right:1%;">City</p>
+                <p style="color:black;width:49%;float:left;margin-left:1%;">State</p>
+                <input type="text" id="city_input" name="city_input" placeholder="" style="width:49%;float:left;margin-right:1%;margin-top:-15px;">
+                <input type="text" id="state_input" name="state_input" placeholder="" style="width:49%;float:left;margin-left:1%;margin-top:-15px;"><br><br><br><br>
+
+                <p style="color:black;width:49%;float:left;margin-right:1%;">Number of people you helped (please estimate if you’re not certain)</p>
+                <p style="color:black;width:49%;float:left;margin-left:1%;">How many others joined you or helped prep? (You can share their emails here so we can inform them about Street Care)</p>
+                <select id="helped" name="helped" style="width:49%;float:left;margin-right:1%;color:black;margin-top:-13px;">
+                     <option selected value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="27">27</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+                     <option value="30">30</option>
+                </select>
+                <input type="text" id="others_help" name="state_input" placeholder="" style="width:49%;float:left;margin-left:1%;margin-top:-15px;"><br><br><br><br><br><br>
+
+                <p style="color:black;width:100%;float:left;margin-top:-15px;">What you gave out (please give detail)</p>
+                <input type="text" id="city_input" name="city_input" placeholder="" style="width:100%;float:left;margin-top:-15px;"><br><br><br>
+
+                <p style="color:black;width:49%;float:left;margin-right:1%;">Hours spent</p>
+                <p style="color:black;width:49%;float:left;margin-left:1%;">Can you go again?</p><br><br>
+
+                <select id="hours" name="hours" style="width:49%;float:left;margin-right:1%;margin-top:-13px;color:black;">
+                     <option selected value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                </select>
+                <div style="width:49%;float:left;margin-left:1%;margin-top:-8px;color:black;">
+                    <div style="width:33%;text-align:center;float:left;">
+                        <input type="Radio" style="width:0.8em;height:0.8em;" name="regularity" id="r1" value="yes">
+                        <label for="r1" style="color:black;">Yes</LABEL>
+                    </div>
+                    <div style="width:33%;text-align:center;float:left;">
+                        <input TYPE="Radio" style="width:0.8em;height:0.8em;" Name="regularity" id="r2" value="no">
+                        <LABEL for="r2" style="color:black;">No</LABEL>
+                    </div>
+                    <div style="width:33%;text-align:center;float:left;">
+                        <input type="Radio" style="width:0.8em;height:0.8em;" name="regularity" id="r3" value="undecided">
+                        <LABEL for="r3" style="color:black;">Undecided</LABEL>
+                    </div>
+                </div><br><br><br>
+
+                <p style="color:black;width:100%;float:left;margin-top:-15px;">What support would help you go again?</p>
+                <input type="text" id="city_input" name="city_input" placeholder="" style="width:100%;float:left;margin-top:-15px;"><br><br><br><br>
+                <p style="color:black;width:100%;float:left;margin-top:-15px;">Did you have a good experience? Please tell us. It’s great to hear what you think and what inspires you! And, if any homeless people shared with you, it would be very helpful to hear that, so we know what they need and how it went for them (if they want to share their name, you can list that here).</p>
+                <input type="text" id="city_input" name="city_input" placeholder="" style="width:100%;float:left;margin-top:-15px;"><br><br><br><br><br><br>
+
+                <p style="color:black;width:49%;float:left;margin-right:1%;margin-top:-15px;">Name</p>
+                <p style="color:black;width:49%;float:left;margin-left:1%;margin-top:-15px;">Contact Info (you can include email,phone, and address…)</p>
+                <input type="text" id="city_input" name="city_input" placeholder="" style="width:49%;float:left;margin-right:1%;margin-top:-15px;">
+                <input type="text" id="state_input" name="state_input" placeholder="" style="width:49%;float:left;margin-left:1%;margin-top:-15px;"><br><br><br><br>
+
+                <p style="color:black;width:100%;float:left;margin-top:-15px;">Questions/Comments</p>
+                <input type="text" id="city_input" name="city_input" placeholder="" style="width:100%;float:left;margin-top:-15px;"><br><br><br><br>
+                <input type="submit" class="nav-link js-scroll-trigger ext_l f_r ext_l-hov ext_l_len" style="height:44px;">
+            </form><br><br>
+            </div><br><br>
+
+
+{% endblock %}
