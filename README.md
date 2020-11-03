@@ -9,9 +9,9 @@ To run this website on localhost // MacOS X:
 
 3. Create virtual environment __in the directory of application.py__ (navigate there with `cd /dir/...`: In terminal, type
 
-  `python3.7 -m venv .env
+  `python3.7 -m venv .env`
   
-   source .env/bin/activate`
+   `source .env/bin/activate`
    
 3. Install __requirements.txt__: In terminal, type
 
