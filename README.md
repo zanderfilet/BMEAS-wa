@@ -3,7 +3,7 @@ BMEAS Web App Resources.
 
 To run this website on localhost // MacOS X:
 
-1. \[Install __Python 3.7.6__ (or a newer version) and set up __pip__: In terminal, type 
+1. Install __Python 3.7.6__ (or a newer version) and set up __pip__: In terminal, type 
 
 `python3.7 get-pip.py`
 
