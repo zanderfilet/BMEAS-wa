@@ -21,6 +21,6 @@ To run this website on localhost // MacOS X or Linux:
 
 5. View web app in announced address on terminal (typically [http://127.0.0.1:5000/](http://127.0.0.1:5000/))
 
-6. `CTRL C` in terminal to quit flask 
+6. `CTRL-C` in terminal to quit flask 
 
 HTML files extend from __aa_layout.html__ (with Jinja, these define the left bar of the website). HTML files can be found in __/templates__ directory. 
