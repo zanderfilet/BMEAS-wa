@@ -23,4 +23,4 @@ To run this website on localhost // MacOS X:
 
 6. `CTRL C` in terminal to quit flask 
 
-HTML files extend from __aa_layout.html__ (with Jinja, these define the left bar of the website). Templates can be found in __templates__ directory. 
+HTML files extend from __aa_layout.html__ (with Jinja, these define the left bar of the website). HTML files can be found in __/templates__ directory. 
